@@ -154,9 +154,13 @@ header {
 */
 .top_nav {
     margin-top: 3.5rem;
+    height: 4.8rem;
+    background-color: #242424;
+
 }
 .top_nav li {
     float: left;
+    border-right: 1px solid #3B3B3B;
 }
 .top_nav a {
     display: block;
@@ -171,55 +175,89 @@ header {
     color: white;
     background-repeat: no-repeat;
     background-color: ;
+    background-color: #242424;
 }
 .top_nav li:nth-child(1) a {
     padding-left: 4.0rem;
     background-image: url(../img/house.png);
-    background-position: 12% 25%;
-    background-size: 21%;
+    background-position: 13% 30%;
+    background-size: 15%;
+    background-color: #050505;
 }
 .top_nav li:nth-child(2) a {
     padding-left: 3.8rem;
-    width: 9.3rem;
-    background-image: url(../img/roll-min.jpg);
-    background-position: 11% 36%;
-    background-size: 32%;
-
+    width: 9.2rem;
+    background-image: url(../img/roll.png);
+    background-position: 18% 36%;
+    background-size: 18%;
 }
 .top_nav li:nth-child(3) a {
     padding-left: 4.1rem;
-    width: 9.9rem;
-    background-image: url(../img/rub-min.jpg);
-    background-position: 20% 31%;
-    background-size: 21%;
+    width: 9.7rem;
+    background-image: url(../img/rub.png);
+    background-position: 25% 39%;
+    background-size: 11%;
 }
 .top_nav li:nth-child(4) a {
     padding-left: 4.2rem;
-    width: 15.1rem;
-    background-image: url(../img/car-min.jpg);
-    background-position: 9% 36%;
-    background-size: 19%;
+    width: 15.0rem;
+    background-image: url(../img/car.png);
+    background-position: 11% 40%;
+    background-size: 13%;
 }
 .top_nav li:nth-child(5) a {
     padding-left: 4.3rem;
-    width: 13.0rem;
-    background-image: url(../img/hands-min.jpg);
-    background-position: 13% 39%;
-    background-size: 21%;
+    width: 12.9rem;
+    background-image: url(../img/hands.png);
+    background-position: 15% 42%;
+    background-size: 15%;
 }
 .top_nav li:nth-child(6) a {
     padding-left: 3.8rem;
     width: 11.5rem;
     background-image: url(../img/gps-min.png);
-    background-position: 13% 24%;
-    background-size: 26%;
+    background-position: 17% 29%;
+    background-size: 11%;
 }
 .top_nav ul {
     margin-left: 23.5rem;
     list-style-type: none;
     height: auto;
 }
-
+.warranty {
+    line-height: 0.9rem;
+    width: auto;
+    display: inline-block;
+    margin-left: 4.3rem;
+    margin-top: 0.5rem;
+    width: 13.8rem;
+    border: 2px solid white;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.w_right,.w_left {
+    display: inline-block;
+    font-family: 'RobotoCondensedRegular';
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 0.6px;
+}
+.w_left {
+    margin-left: 5.0rem;
+    margin-top: -1.8rem;
+    vertical-align: top;
+    line-height: 1.1rem;
+}
+.w_right {
+    margin-left: 0.3rem;
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.3px;
+}
+.w_right span {
+    font-size: 2.6rem;
+}
 
 
 
