@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    padding: 0;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+.top_adress  {
+    background-image: url(../img/gps.png);
+    min-height: 57px;
+    background-repeat: no-repeat;
+    background-position: 219px 8px;
+    background-size: 4.8%;
+}
+header {
+    background: url(../img/background.png) 0 0 no-repeat;
+    min-height: 644px;
+    background-position: 10.1% 0%;
+    background-size: 100.0%;
+    font-family: 'BebasBold';
+
+}
+.top_adress span {
+    color: #d00000;
+    font-size: 2.6rem;
+    font-weight: 100;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    margin-left: 25.8rem;
+    margin-top: 0.7rem;
+    display: block;
+}
+
+.top_adress a {
+    display: block;
+    font-family: 'BebasThin';
+    margin-left: 25.6rem;
+    margin-top: -0.8rem;
+    color: #f7f7f7;
+    font-weight: bold;
+    font-size: 1.9rem;
+    letter-spacing: -0.4px;
+}
+.first {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 72px;
+    position: relative;
+    box-shadow:  1px 1px 1px #5B5B5B ;
+    background: rgba(23, 23, 23, 0.74);
+}
+.top_feedback span {
+    color: aliceblue;
+    font-size: 2.8rem;
+    font-weight: 100;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    margin-left: 4.1rem;
+    margin-top: 0.5rem;
+    display: block;
+}
+.top_feedback span p {
+    display: inline;
+    color: red;
+}
+.top_feedback a {
+    display: block;
+    margin-left: 4.4rem;
+    margin-top: -0.9rem;
+    color: #f7f7f7;
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: -0.3px;
+}
+.top_logo {
+    background-image: url(../img/logo.png);
+    min-height: 153px;
+    background-repeat: no-repeat;
+    background-position: 0% -4.4px;
+    background-size: 65%;
+    position: absolute;
+    min-width: 92%;
+}
+/*    H1
+=======================
+*/
+
+.top_offer .container .col-md-12 p {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 3.1rem;
+    color: #FFFFFF;
+    margin-top: 6.0rem;
+    margin-left: 0.4rem;
+    letter-spacing: 1.0px;
+}
+/*    Buttons-TOP
+=======================
+*/
+.top_buttons {
+    margin-top: 28.4rem;
+}
+.button {
+    height: 4.4rem;
+    font-size: 1.7rem;
+    color: white;
+    border-bottom: 3px  solid #AC160A;
+    display: inline-block;
+    background-color: #D12F22;
+}
+.st_button {
+    margin-left: 7.0rem;
+    width: 19.3rem;
+    padding-left: 5.6rem;
+    padding-top: 0.9rem;
+    line-height: 1.5rem;
+    background-image: url(../img/photo.png);
+    background-repeat: no-repeat;
+    background-position: 0.6rem 0.9rem;
+    background-size: 24%;
+}
+.pr_button {
+    width: 7.7rem;
+    margin-left: 1.4rem;
+    vertical-align: top;
+    padding-top: 1.3rem;
+    padding-left: 2.0rem;
+}
+.button:hover {
+    background-color: #db3c2f;
+    color: white;
+}
+.button:active {
+    background-color: #cc180a;
+    color: white;
+}
+.button:visited {
+/*    background-color: #cc180a;*/
+    color: white;
+}
+
+.top_buttons a {
+    text-decoration: none;
+}
+/*    NAV
+=======================
+*/
+.top_nav {
+    margin-top: 3.5rem;
+}
+.top_nav li {
+    float: left;
+}
+.top_nav a {
+    display: block;
+    line-height: 3.3rem;
+    width: 11.5rem;
+    font-family: 'BebasRegular';
+    font-size: 1.7rem;
+    margin-top: 0.0rem;
+    letter-spacing: 0.8px;
+    height: 4.7rem;
+    line-height: 4.3rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-color: ;
+}
+.top_nav li:nth-child(1) a {
+    padding-left: 4.0rem;
+    background-image: url(../img/house.png);
+    background-position: 12% 25%;
+    background-size: 21%;
+}
+.top_nav li:nth-child(2) a {
+    padding-left: 3.8rem;
+    width: 9.3rem;
+    background-image: url(../img/roll-min.jpg);
+    background-position: 11% 36%;
+    background-size: 32%;
+
+}
+.top_nav li:nth-child(3) a {
+    padding-left: 4.1rem;
+    width: 9.9rem;
+    background-image: url(../img/rub-min.jpg);
+    background-position: 20% 31%;
+    background-size: 21%;
+}
+.top_nav li:nth-child(4) a {
+    padding-left: 4.2rem;
+    width: 15.1rem;
+    background-image: url(../img/car-min.jpg);
+    background-position: 9% 36%;
+    background-size: 19%;
+}
+.top_nav li:nth-child(5) a {
+    padding-left: 4.3rem;
+    width: 13.0rem;
+    background-image: url(../img/hands-min.jpg);
+    background-position: 13% 39%;
+    background-size: 21%;
+}
+.top_nav li:nth-child(6) a {
+    padding-left: 3.8rem;
+    width: 11.5rem;
+    background-image: url(../img/gps-min.png);
+    background-position: 13% 24%;
+    background-size: 26%;
+}
+.top_nav ul {
+    margin-left: 23.5rem;
+    list-style-type: none;
+    height: auto;
+}
+
+
+
+
+
+
