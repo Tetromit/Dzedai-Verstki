@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container {
     width: 100%;
@@ -302,6 +303,94 @@ main h2::after {
     top: 6.0rem;
     right: 38.7rem;
 }
+
+/*    mian_categories
+=======================
+*/
+.main_wrap {
+/*    text-align: center;*/
+}
+.main_cats {
+    margin-top: 4.1rem;
+}
+.main_cats ul {
+    margin-left: 23.1rem;
+    width: 89.3rem;
+}
+.main_cats li {
+    display: inline-block;
+    margin-left: 1.8rem;
+    border: 1px solid #353535
+}
+.main_cats li:nth-child(1) {
+    margin-left: 0rem
+}
+.main_cats li a {
+    display: block;
+    height: 10.8rem;
+    width: 13.0rem;
+    padding-top: 8.6rem;
+/*    padding-left: 0.7rem;*/
+    font-size: 1.6rem;
+    letter-spacing: -0.6px;
+    color: #fff;
+}
+.main_cats li:nth-child(1) a {
+    padding-left: 2.0rem;
+    letter-spacing: 0.4px;
+    background-image: url(../img/categories.png);
+    background-repeat: no-repeat;
+    background-position: 2.1rem 1.1rem;
+    background-size: 499% ;
+}
+.main_cats li:nth-child(2) a {
+    padding-left: 0.9rem;
+    background-image: url(../img/categories.png);
+    background-repeat: no-repeat;
+    background-position: -8.8rem 1.0rem;
+    background-size: 499% ;
+}
+.main_cats li:nth-child(3) a {
+    padding-left: 1.9rem;
+    letter-spacing: 0.5px;
+    background-image: url(../img/categories.png);
+    background-repeat: no-repeat;
+    background-position: -19.3rem 1.1rem;
+    background-size: 499% ;
+}
+.main_cats li:nth-child(4) a {
+    padding-left: 3.2rem;
+    background-image: url(../img/categories.png);
+    background-repeat: no-repeat;
+    background-position: -30.4rem 1.5rem;
+    background-size: 499% ;
+    letter-spacing: 0.0rem;
+}
+.main_cats li:nth-child(5) a {
+    padding-left: 1.6rem;
+    letter-spacing: 0.3px;
+    background-image: url(../img/categories.png);
+    background-repeat: no-repeat;
+    background-position: -41.9rem 1.5rem;
+    background-size: 499% ;
+}
+.main_cats li:nth-child(6) a {
+    padding-left: 1.8rem;
+    letter-spacing: 0.5px;
+    background-image: url(../img/categories.png);
+    background-repeat: no-repeat;
+    background-position: -52.6rem 1.7rem;
+    background-size: 499% ;
+}
+
+li .arrow {
+    height: 2.4rem;
+    background-image: url(../img/);
+    background-position: 5.3rem 0.2rem;
+    background-repeat: no-repeat;
+}
+
+
 
 
 
