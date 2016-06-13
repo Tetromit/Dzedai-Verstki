@@ -267,7 +267,8 @@ header {
 main {
     background-color: #191919;
 }
-main h2 {
+main h2,
+.top_head h4 {
     text-align: center;
     font-size: 3.4rem;
     margin-top: 4.5rem;
@@ -470,7 +471,168 @@ div[target] {
 /*    display: block;*/
 }
 
+/*          cats_button
+===================================
+*/
+.cats_button {
+    text-align: center;
+    height: 20.4rem;
+
+}
+.cats_button .button {
+    width: 17.3rem;
+    height: 4.5rem;
+    margin-top: 12.1rem;
+    margin-left: 0.9rem;
+    text-align: center;
+    line-height: 4.5rem;
+    padding-left: -0.6rem;
+}
+.cats_button .button h4 {
+    height: 4.5rem;
+}
+/*          article
+===================================
+*/
+.art_header {
+    background-color: #E9E9E9;
+    height: 13.6rem;
+}
+.top_head {
+}
+.top_head h4  {
+    letter-spacing: 0.0px;
+    font-size: 3.3rem;
+    color: #000;
+    margin-top: 2.3rem;
+    margin-left: 31.3rem;
+    width: 69rem;
+}
+.top_head h4::before {
+    content: "";
+    width: 12rem;
+    height: 12.2rem;
+    background-image: url(../img/stroks.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2.1rem;
+    left: 30rem;
+    background-position: 5.4rem 1.2rem;
+    background-size: 136%;
+}
+.top_head h4::after {
+    content: "";
+    width: 12rem;
+    height: 12.2rem;
+    background-image: url(../img/stroks.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2.1rem;
+    left: 90.6rem;
+    background-position: -7.6rem 1.2rem;
+    background-size: 136%;
+}
+.top_head p {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    letter-spacing: -0.8px;
+    line-height: 1.7rem;
+    padding-top: 0.6rem;
+    font-weight: bold;
+}
+.art_content {
+    font-family: sans-serif;
+    background-color: #D6D6D6;
+    margin-top: 0.0rem;
+    height: 74.6rem;
+}
+.art_content .col-md-4 img {
+    margin-left: 3.8rem;
+    margin-top: 3.5rem;
+    max-width: 28.0rem;
+    border-top: 4px solid red;
+}
+.art_content .col-md-4 p {
+    color: #000;
+    text-align: center;
+    width: 28.1rem;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    margin-top: 1.6rem;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    font-family: 'RobotoBold';
+}
+.art_content .row:nth-child(1) .col-md-4:nth-child(1) img {
+    margin-left: 21.5rem;
+}
+.art_content .row:nth-child(1) .col-md-4:nth-child(2) img {
+    margin-left: 6.8rem;
+}
+.art_content .row:nth-child(1) .col-md-4:nth-child(3) img {
+    margin-left: -7.6rem;
+}
+
+.art_content .row:nth-child(1) .col-md-4:nth-child(1) p {
+    margin-left: 21.5rem;
+}
+.art_content .row:nth-child(1) .col-md-4:nth-child(2) p {
+    margin-left: 6.8rem;
+    letter-spacing: 0.4px;
+}
+.art_content .row:nth-child(1) .col-md-4:nth-child(3) p {
+    margin-left: -7.6rem;
+}
 
 
+
+
+.art_content .row:nth-child(2) .col-md-4:nth-child(1) img {
+    margin-left: 21.4rem;
+    margin-top: 4.6rem;
+}
+.art_content .row:nth-child(2) .col-md-4:nth-child(2) img {
+    margin-left: 7.4rem;
+    margin-top: 4.6rem;
+}
+.art_content .row:nth-child(2) .col-md-4:nth-child(3) img {
+    margin-left: -7.2rem;
+    margin-top: 4.6rem;
+}
+
+.art_content .row:nth-child(2) .col-md-4:nth-child(1) p {
+    margin-left: 21.5rem;
+}
+.art_content .row:nth-child(2) .col-md-4:nth-child(2) p {
+    margin-left: 6.8rem;
+    letter-spacing: -0.1px;
+}
+.art_content .row:nth-child(2) .col-md-4:nth-child(3) p {
+    margin-left: -7.6rem;
+    letter-spacing: 0.4px;
+}
+/*          art_offer
+===================================
+*/
+.art_offer {
+    background-color: #FFFFFF;
+}
+.art_offer_head {
+    margin-left: 22.0rem;
+    margin-top: 2.8rem;
+    font-size: 3.1rem;
+    letter-spacing: -0.2px;
+}
+.art_offer .button {
+    line-height: 4.1rem;
+    width: 14.2rem;
+    height: 3.5rem;
+    margin-left: 29.1rem;
+    margin-top: 2.6rem;
+    padding-left: 2.3rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.2px;
+}
 
 

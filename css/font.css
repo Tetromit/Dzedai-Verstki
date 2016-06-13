@@ -34,3 +34,24 @@
     font-style: normal;
     font-weight: normal;
 }
+
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/RobotoRegular.eot');
+    src: url('../fonts/RobotoRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RobotoRegular.woff') format('woff'),
+        url('../fonts/RobotoRegular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/RobotoBold.eot');
+    src: url('../fonts/RobotoBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RobotoBold.woff') format('woff'),
+        url('../fonts/RobotoBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
