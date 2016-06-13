@@ -335,6 +335,9 @@ main h2::after {
     letter-spacing: -0.6px;
     color: #fff;
 }
+.main_cats li:hover>a {
+    background-color: #2A2A2A;
+}
 .main_cats li:nth-child(1) a {
     padding-left: 2.0rem;
     letter-spacing: 0.4px;
@@ -385,13 +388,87 @@ main h2::after {
 
 li .arrow {
     height: 2.4rem;
-    background-image: url(../img/);
-    background-position: 5.3rem 0.2rem;
+    background-color: #212121;
+    background-image: url(../img/arrow_white.png);
+    background-position: 5.8rem 0.6rem;
+    background-repeat: no-repeat;
+    border: 1px solid #212121;        
+}
+li:hover .arrow{
+    background-color: #353535;
+}
+li .arrow:hover {
+    background-image: url(../img/arrow_red.png);
+    background-position: 5.6rem 0.6rem;
     background-repeat: no-repeat;
 }
+.main_cats input {
+    display: none;
+}
+/*    main_drop
+=======================
+*/
+.menu-1,.menu-2 {
+    width: 88.8rem;
+    text-align: left;
+    margin-left: 23.4rem;
+    margin-top: 1.5rem;
+    height: 7.6rem;
+    padding-left: 1.4rem;
+    padding-top: 1.4rem;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    background-color: #353535;
+    position: absolute;
+    display: none;
+}
+.menu-2  {
+    display: none;
+}
+.main_drop li {
+    display: inline-block;
+    margin-left: 1.0rem;
+}
+.main_drop li:nth-child(1) {
+    display: inline-block;
+    margin-left: 0rem;
+}
+.main_drop li a {
+    color: #fff;
+}
+.tri {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 8px 8px 8px;
+    border-color: transparent transparent #353535 transparent;
+    position: absolute;
+    top: 18.4rem;
+    left: 29.0rem;
+/*    display: none;*/
+}
+.triangular-2 {
+    left: 44.3rem;
+}
+.triangular-3 {
+    left: 59.4rem;
+}
+.triangular-4 {
+    left: 74.6rem;
+}
+.triangular-5 {
+    left: 90.1rem;
+}
+.triangular-6 {
+    left: 105.3rem;
+}
 
-
-
+.main_cats li:nth-of-type(1) label:checked + .main_drop .menu-1 {
+    display: block;
+}
+div[target] {
+/*    display: block;*/
+}
 
 
 
