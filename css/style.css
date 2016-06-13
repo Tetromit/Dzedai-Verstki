@@ -634,5 +634,23 @@ div[target] {
     font-size: 1.7rem;
     letter-spacing: 0.2px;
 }
+.photo {
+    margin-left: 21.8rem;  
+    margin-top: 3.0rem;
+    width: 30.1rem;
+    height: 23.4rem;
+    background-image: url(../img/red_car.png);
+    background-size: 93% ;
+    background-repeat: no-repeat;
+    background-position: 11% 11%;
+}
+.art_offer p{
+    font-family: 'RobotoCondensedRegular';
+    margin-left: -3.4rem;
+    margin-top: 1.8rem;
+    letter-spacing: 0.1px;
+    line-height: 2.2rem;
+    font-size: 0.9rem;
+}
 
 
