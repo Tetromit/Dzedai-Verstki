@@ -617,6 +617,7 @@ div[target] {
 */
 .art_offer {
     background-color: #FFFFFF;
+    height: 30.5rem;
 }
 .art_offer_head {
     margin-left: 22.0rem;
@@ -649,8 +650,47 @@ div[target] {
     margin-left: -3.4rem;
     margin-top: 1.8rem;
     letter-spacing: 0.1px;
-    line-height: 2.2rem;
-    font-size: 0.9rem;
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
+/*          footer
+===================================
+*/
+footer,.row {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    height: 7.9rem;
+    background-color: #2A2A2A;
+}
+.capture a,.footer_menu {
+    display: inline-block;
+    position: absolute;
+    font-family: 'BebasRegular';
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: #fff;
+
+}
+.capture a {
+    top: 2.4rem;
+    left: 24.4rem;
+}
+.footer_menu {
+    top: 2.4rem;
+    left: 46.2rem;
+}
+.footer_menu a {
+    margin-left: 1.7rem;
+    color: #fff;
+}
+.footer_menu a:nth-child(1) {
+    margin-left: 0.1rem;
+}
+
 
 
